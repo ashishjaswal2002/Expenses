@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.expense-item{
+       border:2px solid #ccc;
+       display: flex;
+       align-items: center;
+       gap: 33px;
+       justify-content:space-around;   
+       background-color: white;
+       padding: 6px;
+       width: 60%;
+
+       margin: 0 auto;
+       border-radius: 22px ;
+       background-color: rgba(0,0,0, 0.5);
+    
+       margin-top: 2em;
+      
+}
+.expense-item_price{
+    border: 2px solid #eee;
+    padding: 15px;
+    background-color: blueviolet;
+    color: #ccc;
+    
+
+}
+h2{
+    color: whitesmoke;
+}
+.calender{
+    display: flex;
+    flex-direction: column;
+   gap: 5px;
+   width: 5.5rem;
+   height: 5.5rem;
+   background-color:black;
+    color: #eee;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius:12px;
+}
+.edit{
+    background-color: #eee;
+    }
